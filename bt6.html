@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giai thừa của một số</title>
+</head>
+<body>
+    <script>
+        var num = prompt("Nhập số nguyên dương bất kỳ!");
+        var gt = 1;
+        if(num>0){
+            for (i = 1; i<=num; i++) 
+                {
+                gt=gt*i;
+                }
+	        console.log("Giá trị của " + num + "! " + "là: " + gt);
+        }else{
+            console.log("Giá trị không hợp lệ");
+        }        
+    </script>
+</body>
+</html>

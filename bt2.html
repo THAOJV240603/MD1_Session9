@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Là số chẵn hay số lẻ?</title>
+</head>
+<body>
+    <script>
+        var num;
+        if (num = +(prompt("Nhập số bất kỳ!"))) {
+                if (num % 2 == 0) {
+                    document.write(num + " là số chẵn");
+                } else if (num % 2 != 0) {
+                    document.write(num + " là số lẻ");
+                }
+            } else {
+                document.write("Giá trị không hợp lệ");
+            }
+    </script>
+</body>
+</html>
